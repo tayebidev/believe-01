@@ -3,6 +3,10 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 
+main section {
+    padding: 0 230px;
+}
+
 /* header styles */
 header {
     background-image: url('../images/banner/banner1.png');
@@ -46,4 +50,39 @@ header {
     font-size: 20px;
     font-weight: 600;
     margin-top: 0;
+}
+
+/* my failures section styles */
+.failure-container{
+    display: flex;
+    gap: 130px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.female img{
+    background-color: #F15B22;
+}
+.img-title{
+    width: 288px;
+    color:#151414;
+font-size: 40px;
+font-weight: 700;
+}
+.img-description{
+    width: 416px;
+    color:#444343;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+}
+.points-symbol{
+    color:#444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.symbols{
+    margin-top: 8px;
+    margin-bottom: 0;
 }
