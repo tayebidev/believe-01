@@ -53,36 +53,58 @@ header {
 }
 
 /* my failures section styles */
-.failure-container{
+.failure-container {
     display: flex;
     gap: 130px;
     align-items: center;
     justify-content: space-between;
+    margin-top: 140px;
+    margin-bottom: 215px;
 }
 
-.female img{
+.female img {
     background-color: #F15B22;
 }
-.img-title{
+
+.img-title {
     width: 288px;
-    color:#151414;
-font-size: 40px;
-font-weight: 700;
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
 }
-.img-description{
+
+.img-description {
     width: 416px;
-    color:#444343;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
-}
-.points-symbol{
-    color:#444343;
+    color: #444343;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
 }
-.symbols{
+
+.points-symbol {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.symbols {
     margin-top: 8px;
     margin-bottom: 0;
+}
+
+/*  My Plans styles*/
+
+.my-plans {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.plans-container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
 }
