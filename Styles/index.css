@@ -3,7 +3,7 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 
-main section {
+main {
     padding: 0 230px;
 }
 
@@ -59,7 +59,7 @@ header {
     align-items: center;
     justify-content: space-between;
     margin-top: 140px;
-    margin-bottom: 215px;
+    margin-bottom: 150px;
 }
 
 .female img {
@@ -100,11 +100,62 @@ header {
     font-size: 40px;
     font-weight: 700;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .plans-container {
     display: flex;
     align-items: center;
     text-align: center;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.plans-title {
+    color: #151414;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 18px;
+}
+
+.plans-description {
+    color: #737272;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 0px;
+}
+
+/* always keep a positive mindset styles */
+
+.positive-container {
+    background-image: url('../images/watch.png');
+    background-repeat: no-repeat;
+    height: 300px;
+    border-radius: 8px;
+    color: #FFF;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* display: flex; */
+    background-size: 100%;
+}
+
+
+
+.color-overlay{
+    border-radius: 8px;
+background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%);
+width: 100%;
+    height: 100%;
+    opacity: .4;
+}
+
+.positive-content{
+    align-items: center left;
+    padding: 59px;
+}
+
+.foot{
+    margin-top: 130px;
+    display: flex;
+
 }
